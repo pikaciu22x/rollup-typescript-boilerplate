@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "module": "ES6",
+    "declaration": true,
+    "declarationDir": "./dist",
+    "esModuleInterop": true,
+    "target": "es6",
+    "noImplicitAny": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "moduleResolution": "node",
+    "sourceMap": true,
+    "outDir": "dist",
+    "baseUrl": ".",
+    "paths": {
+      "*": ["node_modules/*"]
+    }
+  },
+  "include": ["src/**/*"]
+}

@@ -1,0 +1,11 @@
+{
+  "env": {
+    "node": true
+  },
+  "extends": "airbnb-base",
+  "plugins": ["promise", "prettier"],
+  "rules": {
+    "indent": ["error", 4],
+    "allowForLoopAfterthoughts": true
+  }
+}
